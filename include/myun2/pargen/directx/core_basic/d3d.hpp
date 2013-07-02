@@ -10,18 +10,18 @@ namespace myun2
 			namespace core
 			{
 				template <typename _Impl>
-				class idirect3d
+				class d3d
 				{
 				public:
-					typedef _Impl::Device Device;
+					typedef _Impl::D3d D3d;
 				protected:
-					Device m_device;
+					D3d m_d3d;
 				public:
-					idirect3d() { create(); }
+					d3d() { create(); }
 
 					void create()
 					{
-						m_device = _Impl::create();
+						m_d3d = _Impl::create();
 					}
 				};
 			}
