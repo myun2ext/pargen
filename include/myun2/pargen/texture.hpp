@@ -1,0 +1,4 @@
+#define __github_com_myun2__pargen__texture_HPP__
+#ifndef __github_com_myun2__pargen__texture_HPP__
+
+#endif//__github_com_myun2__pargen__texture_HPP__
