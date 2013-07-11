@@ -1,7 +1,7 @@
-#ifndef __SFJP_ROAST_EX__graphics__directx__core_dx9__d3d_HPP__
-#define __SFJP_ROAST_EX__graphics__directx__core_dx9__d3d_HPP__
+#define __github_com_myun2__pargen__directx__dx9__d3d_HPP__
+#ifndef __github_com_myun2__pargen__directx__dx9__d3d_HPP__
 
-
+#include "myun2/pargen/directx/dx9/includes.hpp"
 
 namespace myun2
 {
@@ -15,8 +15,7 @@ namespace myun2
 				{
 					typedef ::IDirect3D9* D3d;
 
-					static D3d create()
-					{
+					static D3d create() {
 						return ::Direct3DCreate9(D3D_SDK_VERSION);
 					}
 				};
@@ -25,4 +24,4 @@ namespace myun2
 	}
 }
 
-#endif//__SFJP_ROAST_EX__graphics__directx__core_dx9__d3d_HPP__
+#endif//__github_com_myun2__pargen__directx__dx9__d3d_HPP__
