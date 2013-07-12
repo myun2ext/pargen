@@ -1,5 +1,5 @@
-#define __github_com_myun2__pargen__directx__dx10__includes_HPP__
 #ifndef __github_com_myun2__pargen__directx__dx10__includes_HPP__
+#define __github_com_myun2__pargen__directx__dx10__includes_HPP__
 
 #include <windows.h>
 #include <tchar.h>

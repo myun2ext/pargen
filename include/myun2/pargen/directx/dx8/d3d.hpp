@@ -1,5 +1,5 @@
-#define __github_com_myun2__pargen__directx__core_dx8__d3d_HPP__
 #ifndef __github_com_myun2__pargen__directx__core_dx8__d3d_HPP__
+#define __github_com_myun2__pargen__directx__core_dx8__d3d_HPP__
 
 #include "myun2/pargen/directx/dx8/includes.hpp"
 
