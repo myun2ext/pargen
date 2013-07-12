@@ -1,5 +1,5 @@
-#define __github_com_myun2__pargen__directx__dxgi__sample_desc_HPP__
 #ifndef __github_com_myun2__pargen__directx__dxgi__sample_desc_HPP__
+#define __github_com_myun2__pargen__directx__dxgi__sample_desc_HPP__
 
 #include <DXGI.h>
 

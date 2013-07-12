@@ -1,5 +1,5 @@
-#define __github_com_myun2__pargen__dummy_driver__dx8_HPP__
 #ifndef __github_com_myun2__pargen__dummy_driver__dx8_HPP__
+#define __github_com_myun2__pargen__dummy_driver__dx8_HPP__
 
 //	Dummy Included
 #define __github_com_myun2__pargen__directx__dx8__includes_HPP__
