@@ -1,7 +1,7 @@
 Pargen
 ========
 
-**Pargen** Library is for DirectX written in C++.
+**Pargen** is for DirectX / OpenGL Utility Library for C++.
 
 
 ## Getting Started
