@@ -11,9 +11,9 @@ namespace myun2
 		{
 			namespace dxgi
 			{
-				class mode_desc
+				struct mode_desc
 				{
-					//	DXGI_MODE_DESC
+					DXGI_MODE_DESC dxgi_desc;
 				};
 			}
 		}

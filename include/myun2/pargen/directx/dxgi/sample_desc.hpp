@@ -11,11 +11,9 @@ namespace myun2
 		{
 			namespace dxgi
 			{
-				class sample_desc
+				struct sample_desc
 				{
-					//	DXGI_SAMPLE_DESC 
-					//    UINT Count;
-					//    UINT Quality;
+					DXGI_SAMPLE_DESC dxgi_desc;
 				};
 			}
 		}

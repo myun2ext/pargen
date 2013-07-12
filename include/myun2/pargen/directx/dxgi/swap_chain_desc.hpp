@@ -14,6 +14,8 @@ namespace myun2
 			{
 				struct swap_chain_desc
 				{
+					DXGI_SWAP_CHAIN_DESC dxgi_value;
+
 					mode_desc buffer_desc;
 					sample_desc sample;
 					DXGI_USAGE BufferUsage;
