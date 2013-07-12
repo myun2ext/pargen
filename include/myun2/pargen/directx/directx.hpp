@@ -1,5 +1,7 @@
-#define __github_com_myun2__pargen__directx__direct_HPP__
 #ifndef __github_com_myun2__pargen__directx__direct_HPP__
+#define __github_com_myun2__pargen__directx__direct_HPP__
+
+#include "myun2/pargen/directx/version_symbols.hpp"
 
 namespace myun2
 {
@@ -7,6 +9,7 @@ namespace myun2
 	{
 		namespace directx
 		{
+			
 		}
 	}
 }
