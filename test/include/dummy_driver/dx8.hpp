@@ -10,6 +10,7 @@
 
 struct IDirect3D8 {};
 
+#define D3D_SDK_VERSION	(8)
 IDirect3D8* Direct3DCreate8(UINT SDKVersion) { return new IDirect3D8; };
 
 

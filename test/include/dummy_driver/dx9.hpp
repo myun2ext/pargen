@@ -8,6 +8,8 @@
 
 #include <windows.h>
 
+#define D3D_SDK_VERSION	(9)
+
 struct IDirect3DDevice9 {};
 
 struct IDirect3D9 {
@@ -33,7 +35,7 @@ HRESULT IDirect3D9::CreateDevice(UINT Adapter,
 	IDirect3DDevice9** ppReturnedDeviceInterface
 )
 {
-	returnb 1;
+	return 1;
 }
 
 #endif//__github_com_myun2__pargen__dummy_driver__dx9_HPP__
