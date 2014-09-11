@@ -21,13 +21,15 @@ namespace myun2
 				wc.lpszClassName = name;
 				wc.lpfnWndProc = window_proc;
 			}
+
 			operator WNDCLASSEX& () { return wc; }
 			operator const WNDCLASSEX& () const { return wc; }
 			operator WNDCLASSEX* () { return &wc; }
 			operator const WNDCLASSEX* () const { return &wc; }
-
 			void register_class() const { ::RegisterClassEx(&wc); }
 			void unregister(HINSTANCE h_instance) const { ::UnregisterClass(wc.lpszClassName, h_instance); }
+
+			const char* get_class_name() const { return wc.lpszClassName; }
 		};
 	}
 }
