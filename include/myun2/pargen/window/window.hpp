@@ -17,7 +17,8 @@ namespace myun2
 				const window_class& wc,
 				const char* window_title,
 				unsigned int width, unsigned int height,
-				unsigned int x=0, unsigned int y=0, bool immediately_show=true)
+				unsigned int x=CW_USEDEFAULT, unsigned int y=CW_USEDEFAULT,
+				bool immediately_show=true)
 			{
 				wc.register_class();
 
