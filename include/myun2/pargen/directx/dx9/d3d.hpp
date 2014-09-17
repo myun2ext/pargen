@@ -9,7 +9,7 @@ namespace myun2
 	{
 		namespace directx
 		{
-			namespace core_dx9
+			namespace dx9
 			{
 				struct d3d
 				{
