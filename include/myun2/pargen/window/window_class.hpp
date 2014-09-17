@@ -18,6 +18,15 @@ namespace myun2
 			{
 				ZeroMemory(&wc, sizeof(wc));
 				wc.cbSize = sizeof(wc);
+				wc.style         = CS_HREDRAW | CS_VREDRAW;
+				wc.cbClsExtra    = 0;
+				wc.cbWndExtra    = 0;
+				wc.hInstance     = NULL;
+				wc.hIcon         = LoadIcon(NULL, IDI_APPLICATION);
+				wc.hCursor       = LoadCursor(NULL, IDC_ARROW);
+				wc.hbrBackground = (HBRUSH)GetStockObject(WHITE_BRUSH);
+				wc.lpszMenuName  = NULL;
+				wc.hIconSm       = LoadIcon(NULL, IDI_APPLICATION);
 				wc.lpszClassName = name;
 				wc.lpfnWndProc = window_proc;
 			}
