@@ -7,19 +7,16 @@ namespace myun2
 {
 	namespace pargen
 	{
-		namespace directx
+		namespace dx9
 		{
-			namespace dx9
+			struct d3d
 			{
-				struct d3d
-				{
-					typedef ::IDirect3D9* D3d;
+				typedef ::IDirect3D9* D3d;
 
-					static D3d create() {
-						return ::Direct3DCreate9(D3D_SDK_VERSION);
-					}
-				};
-			}
+				static D3d create() {
+					return ::Direct3DCreate9(D3D_SDK_VERSION);
+				}
+			};
 		}
 	}
 }
